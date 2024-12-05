@@ -1,0 +1,125 @@
+ <!doctype html>
+
+<html data-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pricing</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="css/bulma.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        
+        
+        <script src="javascript/navbar.js"></script>
+        <script defer src="javascript/loadpage.js"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navbar -->
+        <nav class="navbar is-info" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <strong>BlackField Labs</strong>
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="documentation.html">
+                        Documentation
+                    </a>
+
+                    <a class="navbar-item is-active" href="pricing.html">
+                       Pricing
+                    </a>
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary" href="signup.html">
+                                <strong>Sign up</strong>
+                            </a>
+                            <a class="button is-light" href="login.html">
+                                Log in
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </nav>
+
+        
+        <!-- Hero Section for Free Tier -->
+        <section class="hero is-info is-bold">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h2 class="title is-2">Free Tier</h2>
+                    <p class="subtitle is-4"><strong>For up to 50 active devices</strong></p>
+                    <p>No cost involved, perfect for small teams and personal projects.</p>
+                    <ul>
+                        <li>Up to 50 devices</li>
+                        <li>Basic features</li>
+                        <li>No support</li>
+                    </ul>
+                    <br/>
+                    <a class="button is-light is-medium" href="signup.html">Get Started</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hero Section for Subscription Tier -->
+        <section class="hero is-primary is-bold">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h2 class="title is-2">Subscription</h2>
+                    <p class="subtitle is-4"><strong>$50 per year for up to 200 devices</strong></p>
+                    <p>Ideal for growing teams needing more devices and support.</p>
+                    <ul>
+                        <li>Up to 200 devices</li>
+                        <li>Advanced features</li>
+                        <li>Priority support</li>
+                    </ul>
+                    <br/>
+                    <a class="button is-light is-medium" href="signup.html">Subscribe Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hero Section for One-Time Payment Tier -->
+        <section class="hero is-success is-bold">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h2 class="title is-2">One-Time Payment</h2>
+                    <p class="subtitle is-4"><strong>$1 per device (Lifetime License)</strong></p>
+                    <p>Pay once, and use it for as long as you need with no recurring fees.</p>
+                    <ul>
+                        <li>Unlimited devices</li>
+                        <li>No subscription fees</li>
+                        <li>License last with device</li>
+                    </ul>
+                    <br/>
+                    <a class="button is-light is-medium" href="signup.html">Purchase Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer, Pulls from footer.html, uses js to load -->
+        <div id="footer">
+            <div class="skeleton-block"><br/><br/><br/><br/><br/><br/></div> <!-- Skeleton Place Holder -->
+        </div>
+
+    </body>
+
+</html>

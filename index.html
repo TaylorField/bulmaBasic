@@ -1,0 +1,148 @@
+<!doctype html>
+
+<html data-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="css/bulma.css">
+        
+        <!-- Footer load script -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        
+        <script src="javascript/navbar.js"></script>
+        <script src ="javascript/tabber.js"></script>
+        <script defer src="javascript/loadpage.js"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navbar -->
+        <nav class="navbar is-info" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <strong>BlackField Labs</strong>
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="documentation.html">
+                        Documentation
+                    </a>
+
+                    <a class="navbar-item" href="pricing.html">
+                       Pricing
+                    </a>
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary" href="signup.html">
+                                <strong>Sign up</strong>
+                            </a>
+                            <a class="button is-light" href="login.html">
+                                Log in
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <section class="hero is-large is-info">
+            <div class="hero-body">
+                <p class="title">Simply Simple Inventory Management</p>
+                <p class="subtitle">Low Cost, Low Complexity</p>
+                <hr>
+            </div>
+            <div class="hero-foot">
+                <nav class="tabs">
+                    <div class="container">
+                        <ul>
+                            <hr>
+                            <li class="is-primary"><a class="tab-link" data-tab="overview">Overview</a></li>
+                            <li><a class="tab-link" data-tab="tracking">Tracking</a></li>
+                            <li><a class="tab-link" data-tab="provisioning">Provisioning</a></li>
+                            <li><a class="tab-link" data-tab="history">History</a></li>
+                            <li><a class="tab-link" data-tab="eventlogging">Event Logging</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+
+        <!-- section for content -->
+        <section class="section" id="content-section">
+            <div class="container">
+                <!-- Default content (can be 'Overview') -->
+                <div id="overview" class="content-tab">
+                    <h1 class="title">Overview</h1>
+                    <p>Simply Simple Inventory Management (SSIM) is a streamlined, user-friendly solution designed to help schools and organizations efficiently manage their fleet of devices, from Chromebooks and laptops to tablets and other tech equipment. SSIM simplifies the often complex process of tracking, provisioning, and maintaining devices, allowing administrators to focus on what matters most: empowering students and staff with the tools they need to succeed. With a simple yet powerful interface, SSIM provides a comprehensive view of your entire device ecosystem, ensuring smooth operations, improved decision-making, and a reduction in time spent managing inventory.</p>
+                    <br/>
+                    <p>At its core, SSIM offers a centralized platform for administrators to monitor every aspect of device management, from procurement to end-of-life. Whether you're managing devices for a small classroom or a large school district, SSIM ensures that you can keep track of devices assigned to users, monitor device health and performance, and easily identify and resolve issues. The system integrates key features such as history tracking, event logging, provisioning, and deprovisioning, making it a one-stop solution for comprehensive device management.</p>
+                    <br/>
+                    <p>SSIM is built with simplicity and ease of use in mind. Its intuitive interface ensures that anyone—from IT professionals to school administrators with limited tech experience—can quickly get up to speed and start managing their devices with minimal training. The platform is fully customizable, allowing schools to tailor it to their unique needs and workflows. Whether you're looking to manage device assignments, track device performance, or analyze historical data to inform future decisions, SSIM makes it easier than ever to stay organized and proactive in your device management efforts.</p>
+                    <br/>
+                    <p>In addition, SSIM offers valuable insights into your device fleet’s performance, enabling you to make data-driven decisions about future purchases, repairs, or upgrades. By providing detailed reports, historical tracking, and real-time monitoring, SSIM empowers administrators to act on valuable data that can improve the long-term success of your device ecosystem. With SSIM, you can ensure that your devices are not only serving their current purpose but also helping you plan for the future.</p>
+                </div>
+
+                <div id="tracking" class="content-tab" style="display:none;">
+                    <h1 class="title">Tracking</h1>
+                    <p>Tracking is an essential component of effective device management, enabling administrators to maintain a clear overview of their entire inventory and ensure each device is accounted for. Through comprehensive tracking systems, admins can know exactly how many devices are in their fleet, where each device is located, and to whom it is assigned. This level of visibility is crucial for both day-to-day operations and long-term planning, as it allows schools to monitor device usage and ensure that resources are being allocated efficiently.</p>
+                    <br/>
+                    <p>Building off the processes of provisioning and deprovisioning, tracking ensures that devices are always associated with the correct individual—whether that’s a student, staff member, or faculty member. It provides real-time information about who is using which device, and records the history of device assignments over time. This feature is particularly useful for keeping track of devices assigned to students, enabling administrators to quickly locate which devices are currently in use and who is responsible for them. This helps prevent the loss or misplacement of devices and ensures that each student has the right tools for learning.</p>
+                    <br/>
+                    <p>Tracking also plays a crucial role in maintaining an accurate inventory. By continuously monitoring which devices are in active use, which ones are in the spare pool, and which have been deprovisioned, schools can optimize their resources and make informed decisions about future device purchases. When paired with historical data and event logs, tracking allows admins to see patterns in device performance, identify which models are most reliable, and determine which devices might need to be replaced or repaired. This allows schools to make data-driven decisions that enhance device management and reduce unnecessary costs associated with maintenance and repairs.</p>
+                    <br/>
+                    <p>In addition to monitoring active devices, tracking provides valuable insights for overall fleet management, helping schools maintain accurate records for compliance, auditing, and reporting. Whether tracking devices for inventory purposes, assigning devices to new users, or monitoring their usage over time, the tracking system serves as a backbone for maintaining a well-organized and efficient device ecosystem.</p>
+                </div>
+
+                <div id="provisioning" class="content-tab" style="display:none;">
+                    <h1 class="title">Provisioning</h1>
+                    <p>Provisioning is a critical process that enables administrators to manage the lifecycle of devices and users in a seamless and organized way. It begins with the creation of user accounts for students, staff, or other personnel, and extends to the assignment of devices and licenses to those individuals. Through provisioning, schools can efficiently allocate resources, ensuring that each student or staff member is equipped with the necessary tools for their role or curriculum. This process also enables schools to track which device is assigned to each individual and provides a comprehensive history of the devices they’ve been assigned over time.</p>
+                    <br/>
+                    <p>A key feature of provisioning is the ability to track the movement of devices throughout their lifecycle. When a student is assigned a new device, administrators can ensure that all necessary licenses are applied and that the device is correctly configured. As students or staff transition between grades or roles, provisioning allows for the reassignment of devices, ensuring that each person has access to the right resources. Moreover, when a device is transferred from one individual to another, it can be re-provisioned, ensuring it remains part of the ecosystem and is ready for the next user. This flexibility is crucial in maintaining a fluid and efficient device management system.</p>
+                    <br/>
+                    <p>Provisioning also includes the important process of deprovisioning, which occurs when a user graduates, leaves, or no longer requires their device. Deprovisioning ensures that devices are removed from the user's account, returned to the system, and either reassigned to another person or placed into a spare pool. This helps schools maintain accurate records of device usage and ensures that unused devices are available for redistribution, maximizing the utility of each device in the ecosystem. Whether a device is reassigned to another student or stored for future use, the provisioning and deprovisioning process ensures that each device is properly tracked and managed throughout its entire lifecycle.</p>
+                </div>
+
+                <div id="history" class="content-tab" style="display:none;">
+                    <h1 class="title">History</h1>
+                    <p>Technical issues are an inevitable part of managing devices, and having access to a comprehensive issue log is crucial for administrators. It offers a holistic view of each device’s entire lifecycle, from the initial provisioning stage through to its eventual deprovisioning. With detailed history tracking, administrators can monitor critical events, such as when a device was first provisioned, any issues that were reported over time, and the history of any reprovisioning attempts. This system ensures that admins can easily track a device’s performance and troubleshoot problems effectively, all while maintaining a clear record of its usage and status at every stage. For managing students, this means a powerful tool for understanding how devices evolve within an ecosystem, and how historical data can inform future decisions about device management and troubleshooting.</p>
+                    <br/>
+                    <p>Are you considering which Chromebook to purchase for the upcoming year? A valuable way to inform your decision is by reviewing the historical data on your current inventory. By analyzing the history of reported issues, you can identify which Chromebook models have experienced the most frequent problems, and conversely, which ones have had minimal or no issues at all. This detailed insight allows you to make a more informed decision about future purchases, ensuring that you invest in models known for their reliability and performance, ultimately saving time and resources on repairs and troubleshooting.</p>
+                </div>
+
+                <div id="eventlogging" class="content-tab" style="display:none;">
+                    <h1 class="title">Event Logging</h1>
+                    <p>Event logging provides an essential tool for administrators to track and manage a wide range of issues that can affect device performance. From minor software glitches to significant physical damage, logging these events ensures that all technical difficulties are recorded and can be reviewed at any time. Common events to log include internet connectivity issues, touch screen malfunctions, long load times, operating system reinstallations, faulty trackpads, and missing keys. By documenting these events, administrators can identify recurring problems, patterns, or trends that may indicate underlying issues with certain models or batches of devices.</p>
+                    <br/>
+                    <p>Event logs are invaluable for troubleshooting and prioritizing repairs. For example, if multiple devices report slow boot times or connectivity drops within a short period, this could indicate a wider software or hardware issue that needs to be addressed. Similarly, tracking recurring physical problems like broken trackpads or missing keys can help administrators identify devices that may require replacement or more frequent maintenance. By logging each event, whether it’s a simple software hiccup or a more serious physical defect, administrators can take proactive measures, streamline repair processes, and ensure a smoother experience for end users. Ultimately, effective event logging provides valuable insights into device performance and helps ensure that issues are resolved swiftly and efficiently, reducing downtime and maintaining productivity.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer, Pulls from footer.html, uses js to load -->
+        <div id="footer">
+            <div class="skeleton-block"><br/><br/><br/><br/><br/><br/><br/><br/></div> <!-- Skeleton Place Holder -->
+        </div>
+
+        
+
+    </body>
+
+</html>

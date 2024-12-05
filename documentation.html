@@ -1,0 +1,100 @@
+ <!doctype html>
+
+<html data-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Documentation</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="css/bulma.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="javascript/navbar.js"></script>
+        
+        <script defer src="javascript/contenttab.js"></script>
+        <script defer src="javascript/loadpage.js"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navbar -->
+        <nav class="navbar is-info has-shadow" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <strong>BlackField Labs</strong>
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item is-active" href="documentation.html">
+                        Documentation
+                    </a>
+
+                    <a class="navbar-item" href="pricing.html">
+                       Pricing
+                    </a>
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary" href="signup.html">
+                                <strong>Sign up</strong>
+                            </a>
+                            <a class="button is-light" href="login.html">
+                                Log in
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </nav>
+
+        <!-- Two columns (body) -->
+        <div class="columns">
+
+            <!-- Left Column -->
+            <div class="column is-one-fifth">
+                <section class="section">
+                    <ul class="menu-list">
+                        <li><a href="#" class="documentation-link" data-content="intro">Introduction</a></li>
+                        <li><a href="#" class="documentation-link" data-content="setup">Setup</a></li>
+                        <li><a href="#" class="documentation-link" data-content="usage">Usage</a></li>
+                        <li><a href="#" class="documentation-link " data-content="troubleshooting">Troubleshooting</a></li>
+                        <li><a href="#" class="documentation-link" data-content="faq">FAQ</a></li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- Right Column -->
+            <div class="column">
+                <section class="section">
+                    <div id="documentation-content">
+                        <h1 class="title is-skeleton">Title</h1> <br/>
+                        <div class="skeleton-block"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+        <!-- Footer, Pulls from footer.html, uses js to load -->
+        <div id="footer">
+            <div class="skeleton-block"><br/><br/><br/><br/><br/><br/><br/><br/><br/></div> <!-- Skeleton Place Holder -->
+        </div>
+
+        
+
+    </body>
+
+</html>
